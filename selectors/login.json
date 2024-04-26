@@ -1,0 +1,8 @@
+{
+    "Login":{
+        "inputUsername" : "input[placeholder='Usuario o correo electrónico']",
+        "inputPassword": "input[placeholder='Contraseña']",
+        "loginButton": "//button[contains(text(),'Autenticar')]"
+    }
+    
+}

@@ -1,0 +1,16 @@
+{
+    "Category":{
+        "inputCategoryName" : "#input-username",
+        "btnAceptar": "//button[contains(text(),'Aceptar')]",
+        "adicionarBtn": "//button[normalize-space()='Adicionar']",
+        "lastBtnPagination": "//a[contains(text(),'1')]",
+        "itemList": "//table[contains(@class, 'table')]//td[contains(text(), 'CatTest 3')]",
+        "ïsSubCategory": "//span[contains(text(),'Es subcategoria?')]",
+        
+        
+        "clickCombo": "[aria-autocomplete='list']",
+        "inputCategory": "//input[@aria-autocomplete='list']"
+        
+    }
+    
+}

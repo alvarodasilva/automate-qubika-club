@@ -1,0 +1,9 @@
+{
+    "Main": {
+        "btnSalir": "//a[contains(text(),'Salir')]"
+    },
+
+    "Menu": {
+        "categoryOption": "a[href='#/category-type']"
+    }
+}
