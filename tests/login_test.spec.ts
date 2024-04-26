@@ -44,9 +44,6 @@ test.describe('Creating new Category', () => {
 
         await Category.addNewCategory(page)
 
-        //await Category.checkCategoryAdded(page)
-
-        //await Category.addNewSubCategory(page)
     });
 
 })
@@ -58,7 +55,7 @@ test.describe('Creating new SubCategory', () => {
         Login.validateUrlLoginPage(page)
     });
 
-    test('Creating a sub-category', async ({ page }) => {
+    test('Creating a category', async ({ page }) => {
         await Login.setUsername(page)
         await Login.setPassword(page)
         await Login.clickLogin(page)
@@ -71,9 +68,6 @@ test.describe('Creating new SubCategory', () => {
 
         await Category.addNewSubCategory(page)
 
-        //await Category.checkCategoryAdded(page)
-
-        //await Category.addNewSubCategory(page)
     });
 
 })

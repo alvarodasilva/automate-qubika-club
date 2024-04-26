@@ -4,7 +4,6 @@ const selectorsMain = require('../selectors/main.json')
 
 module.exports = {
 
-
     async validateUserIsLogged(page) {
         await page.waitForSelector(selectorsMain.Main.btnSalir)
         const btnIsPresent = await page.isVisible(selectorsMain.Main.btnSalir)

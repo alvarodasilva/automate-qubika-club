@@ -5,14 +5,6 @@ const selectors = require('../selectors/category.json')
 
 module.exports = {
 
-
-    /* async validateLoginPage(page) {
-        await page.waitForSelector(selectors.Login.loginButton)
-        const btnIsPresent = await page.isVisible(selectors.Login.loginButton)
-
-        expect(btnIsPresent).toBeTruthy();
-    }, */
-
     async validateUrlCategoryPage(page) {
         const urlCurrent = page.url();
         expect(urlCurrent.includes('category-type')).toBeTruthy();
@@ -60,14 +52,4 @@ module.exports = {
         this.setSubCategory(page)
     },
 
-    async checkCategoryAdded(page) {
-        await page.reload()
-        const texto = ''
-        const elementList = await page.waitForSelector(selectors.Category.itemList)
-
-        //expect(elementList).not.toBeNull();
-        /* const lastItemPagination = selectors.Category.lastBtnPagination;
-        await page.waitForSelector(lastItemPagination);
-        await page.click(lastItemPagination); */
-    }
 }
