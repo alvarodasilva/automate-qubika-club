@@ -8,6 +8,7 @@
 Como adicional:
 
 - Felicito a la persona que planteo dicha prueba, una prueba muy técnica con grandes desafios técnicos.
+- Hacia 3 años que no tocaba pruebas automatizadas enfocadas a frontend, fue muy bueno para refrescar conocimientos.
 
 Como crítica constructiva
 
